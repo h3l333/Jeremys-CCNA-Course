@@ -28,6 +28,6 @@ A next-generation firewall combines traditional firewall features with more adva
 >CISCO FIREPOWER: Cisco Firepower is a next-generation firewall which provides security for a local network.
 >
 >CISCO CATALYST: functions as a switch primarly.
->
+
 ---
 All hosts are nodes but not all nodes are hosts, since nodes also include devices such as routers and switches which are not endpoints
