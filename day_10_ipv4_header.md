@@ -2,7 +2,7 @@
 \
 We will cover IPv4 packet structure; it's fields
 
-![](images/pdus.PNG)
+![](Images/pdus.PNG)
 
 *The process of encapsulation as information travels through the OSI model's layers is illustrated in the above image. Each PDU holds a different name. Today we will look at the layer 3 header which contains routing information for our frame*
 
@@ -21,7 +21,7 @@ We will cover IPv4 packet structure; it's fields
 
 - **Flags field:** Used to control & identify fragments. Details in immage attached: 
 
-![](images/flags_field.PNG)
+![](Images/flags_field.PNG)
 
 - **Fragment Offset Field:** Lets the receiver know the position of the fragment within the original, unfragmented IP packet. It is 13 bits in length
 
@@ -37,8 +37,8 @@ We will cover IPv4 packet structure; it's fields
 
 ## To summarize: 
 
-![](images/structure_ipv4_header.PNG)
+![](Images/structure_ipv4_header.PNG)
 ---
 ## Helpful screencap: 
 
-![](images/wireshark_packet_capture.PNG)  
+![](Images/wireshark_packet_capture.PNG)  
