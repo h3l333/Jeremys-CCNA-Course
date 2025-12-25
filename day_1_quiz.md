@@ -7,7 +7,7 @@
 3. My phone is functioning as a client because it is requesting information from Youtube's server in order to watch the video. It isn't functioning as a server because it is not PROVIDING A SERVICE. My device may be an end host however the term 'end host' does not refer to it's functionality, it just describes it as a terminal device, a source or destination of data
 
 4. A router. To connect separate networks together, a router is appropriate, since it is designed to connect and forward traffic between multiple networks. A firewall just acts as a filter, not as a device that facilitates interconnectivity.
-<br>**NOTE:** *A firewall can be placed between multiple network segments and filter traffic between them. Its purpose is not to facilitate communication like a switch or router, but to inspect, allow, or block traffic according to security rules.
+<br><br>**NOTE:** *A firewall can be placed between multiple network segments and filter traffic between them. Its purpose is not to facilitate communication like a switch or router, but to inspect, allow, or block traffic according to security rules.
 A host just describes any device on a network that can receive or send data and has an IP address, it can refer to any type of network node.* 
 <br><br>**NOTE:** *the term host encapsulates both servers (hosts that provide services) and clients (hosts that request services). Every server is a host and every client is a host. A host can be both a server and a client.* 
 <br><br>A LAN describes a set of devices locally interconnected by, usually, a switch.
@@ -20,12 +20,13 @@ A next-generation firewall combines traditional firewall features with more adva
 
 --- 
 <br>
-Cisco ASA (Adaptive Security Appliance) is a network security device designed to protect networks from malicious traffic, providing stateful firewall capabilities and, with additional services, intrusion detection and prevention.
 
-Cisco Integrated Services Router (ISR): Functions mainly as a router but also provides security and switching services. It provides switching services by interconnecting devices within a LAN.
+>CISCO ASA (Adaptive Security Appliance) is a network security device designed to protect networks from malicious traffic, providing stateful firewall capabilities and, with additional services, intrusion detection and prevention.
 
-Cisco Firepower: Cisco Firepower is a next-generation firewall which provides security for a local network.
+>CISCO INTEGRATED SERVICES ROUTER (ISR): Functions mainly as a router but also provides security and switching services. It provides switching services by interconnecting devices within a LAN.
 
-Cisco Catalyst: functions as a switch primarly.
+>CISCO FIREPOWER: Cisco Firepower is a next-generation firewall which provides security for a local network.
+
+>CISCO CATALYST: functions as a switch primarly.
 
 All hosts are nodes but not all nodes are hosts, since nodes also include devices such as routers and switches which are not endpoints
