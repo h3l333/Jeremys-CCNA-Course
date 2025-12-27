@@ -39,6 +39,8 @@ We will cover IPv4 packet structure; it's fields
 
 ![](Images/structure_ipv4_header.PNG)
 ---
-## Helpful screencap: 
+## Helpful screencaps: 
 
 ![](Images/wireshark_packet_capture.PNG)  
+
+![](Images/ipv4_header.png)  
