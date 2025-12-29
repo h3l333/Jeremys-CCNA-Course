@@ -74,3 +74,7 @@ Routers always use the longest prefix match (most specific route) in the routing
 ![](Images/dropped_packet.PNG) 
 
 ![](Images/summary.PNG) 
+
+## Command to configure an IP address on an interface in config-if mode
+
+>In order to configure the IP address of an interface in a Cisco router, I have to write the IP address of that interface and the subnet mask of the given network
