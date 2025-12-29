@@ -28,7 +28,8 @@ Una ruta le dice al router:
 
 Al ejecutarlo, podemos ver "the codes legend", sección que ofrece un listado de los distintos protocolos que los routers pueden usar para aprenderse rutas
 \
-Hoy veremos L (local) y C (connected). La distinción es relevante ya que los routers la usan para construir sus "routing tables"
+Hoy veremos L (local) y C (connected). The difference between local IP addresses and connected IP addresses matters because that distinction marks a difference in how packets are routed and sent.\
+*NOTE:* Nodes generally know only their immediate neighbors (next hops) and destination prefixes, not the full topology or the other networks a neighbor is connected to.\
 \
 Las direcciones locales no se aprenden a través de procesos de enrutamiento, sino que las direcciones de las interfaces locales son propias del router en sí
 \
@@ -43,7 +44,7 @@ Además del "codes legend" podemos observar la tabla de enrutamiento misma, con 
 >Ruta a la red a la que una determinada interfaz se conecta (la "netmask" de una dirección conectada depende de la netmask de la red local en sí)
 
 ---
-Cuándo configuramos una dirección IP en una interfaz y ejecutamos el comando "no shutdown", automáticamente se agregan dos rutas a la tabla: a connected route & a local route. *Estas rutas no corresponden ni al enrutamiento dinámico o estático, simplemente se agregan automáticamente al configurar las interfaces*
+Cuándo configuramos una dirección IP en una interfaz y ejecutamos el comando "no shutdown", automáticamente se agregan dos rutas a la tabla: a connected route & a local route. *Estas rutas no responden ni al enrutamiento dinámico o estático, simplemente se agregan automáticamente al configurar las interfaces*
 
 ![](Images/show_ip_rotue_cmd.PNG)
 ![](Images/routing.PNG)
